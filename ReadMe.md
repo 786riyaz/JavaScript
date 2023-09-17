@@ -1,0 +1,1 @@
+This repository is to leran JavaScript.
