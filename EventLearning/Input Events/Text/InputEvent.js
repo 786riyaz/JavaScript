@@ -9,14 +9,16 @@ The oninput event does NOT occur when a <select> element changes.
 
 let inputText = document.getElementById('inputText');
 let textArea = document.getElementById('textarea');
+let  = document.getElementById('inputNumber');
+
 
 inputText.addEventListener('input', function () {
     console.log("Input Text Feild Event-Lister Detected for 'input'");
     console.log("Entered Value in text ::: " + this.value);
 })
 
-inputText.addEventListener('textInput', function () {
-    console.log("Input Text Feild Event-Lister Detected for 'Text input'");
+inputNumber.addEventListener('textInput', function () {
+    console.log("Input Number Feild Event-Lister Detected for 'Text input'");
     console.log("Entered Value in text ::: " + this.value);
 })
 
