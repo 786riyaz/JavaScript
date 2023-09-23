@@ -1,0 +1,28 @@
+table, tr, td,caption {
+    border: 5px solid;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+* {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+caption {
+    font-weight: 1200;
+    font-size: 70px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+input {
+    border: 5px solid;
+    /* width: 100%; */
+    margin: auto;
+    width:auto;
+    
+}
