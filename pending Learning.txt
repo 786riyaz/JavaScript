@@ -1,0 +1,17 @@
+Async nature of js
+forgiving language
+hoisting
+	let var const
+Modern JS
+	map filter reduce
+Make Projects
+Code Polution
+
+jQuery
+React
+Next
+DSA
+express
+mongo DB
+
+https://www.youtube.com/playlist?list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL
