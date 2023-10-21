@@ -8,7 +8,8 @@ function readTextFile(file) {
       if (rawFile.readyState === 4) {
           if (rawFile.status === 200 || rawFile.status == 0) {
               var allText = rawFile.responseText;
-              console.log("~~~~~~~~~~~~~Here is your data form the file~~~~~~~~~")
+              console.clear();
+              console.log("~~~~~~~~~Here is your data form the file~~~~~~\n-----------------------------------------------\n")
               console.log(allText);
           }
       }
