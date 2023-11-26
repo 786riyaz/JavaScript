@@ -1,0 +1,14 @@
+Covered Points
+Basic
+Clear
+Table
+Time
+Group
+Count
+Assert
+Count
+
+-------------------------------------------
+Remaining Points 
+Console Profile
+Console Trace
