@@ -1,4 +1,4 @@
-Covered Points
+-------------------------------------------   Covered Points
 Basic
 Clear
 Table
@@ -7,8 +7,7 @@ Group
 Count
 Assert
 Count
+Trace
 
--------------------------------------------
-Remaining Points 
+-------------------------------------------   Remaining Points 
 Console Profile
-Console Trace
