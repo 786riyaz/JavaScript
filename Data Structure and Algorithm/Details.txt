@@ -1,0 +1,12 @@
+Here are Different types of DataStructure noted :: 
+
+Array
+Queues
+Set
+List
+Recursion
+Set
+Trees
+Graphs
+Heaps
+Hash Table / Hashmap

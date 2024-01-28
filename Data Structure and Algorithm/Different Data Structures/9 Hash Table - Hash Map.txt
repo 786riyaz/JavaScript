@@ -1,0 +1,8 @@
+----------------------Hashtable or Hashmap
+The Hashtable is an object type that allows you to store key-value pairs in a hash table or map. It provides an efficient way to find values based on their keys, allowing for fast lookups and updates. The data structure also makes it easy to create associative arrays with associated data structures such as maps, sets, and lists.
+
+Advantages of hashtable
+The advantage of using Hashtable over Map is that it doesn’t allow duplicate keys. This means that if you tried to store two values with the same key in a Hashtable, it would throw an error. This is not possible in Map or Array, where duplicate keys are not thrown an error but instead will be stored in memory as a tuple (key, value).
+
+Disadvantages of hashtable
+The disadvantage of using Hashtable over Map is that it doesn’t support ordering or sorting. A HashMap can only store objects, arrays, or primitives such as integers and strings. On the other hand, a map supports ordering and sorting.

@@ -1,0 +1,13 @@
+Arrays are one of the essential concepts in JavaScript, and it’s easy to understand why. They allow you to store any amount of data in a single variable. The array is an ordered list of values that are stored in order.
+
+Advantages of an array :::: 
+The capability of storing multiple values or objects in a single variable.
+The ability to delete or modify existing items at any point within an array without affecting other values.
+The ability to quickly find a specific value within an array or range of values.
+The ability to sort an array based on its values.
+
+Disadvantages of an array :::: 
+It can be difficult to manage when dealing with a large amount of data.
+It can be slow if searching through multiple values in an array. – Can be difficult to maintain if storing a large amount of data.
+It can only quickly determine the size of an array by iterating through all of its values.
+If you modify an array by adding or removing elements, it will not sort based on the new structure.

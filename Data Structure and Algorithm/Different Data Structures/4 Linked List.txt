@@ -1,0 +1,10 @@
+Each “node” in a linked list has data and a “pointer” to the next “node” in the list. Each element in the array represents a link in the chain, and the array is typically implemented as a linked list.
+
+Advantages of linked lists
+It’s dynamic. A linked list lets you add and remove items at any time without changing the rest of the structure.
+You can easily traverse the list by following references.
+It’sIt’s easy to implement with an array or other data structure.
+
+Disadvantages of linked list
+It could be more efficient. If you have a long list, each node must contain two data pieces instead of one.
+Finding the end of the list or inserting new entries anywhere but the beginning or the end can take time and effort.

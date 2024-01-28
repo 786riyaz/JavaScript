@@ -1,0 +1,7 @@
+Set recursive methods help solve problems that contain cycles or loops. Suppose you have a problem that requires iteration but involves a loop that goes on forever and never ends; consider using a recursive method instead. Set-based recursion is especially effective at solving problems involving sets of data and operations such as union, difference, composition, and intersection.
+
+Advantages of  Set
+Recursive methods are more efficient than iterative algorithms because they do not require additional memory space beyond that required by the input data.
+
+Disadvantages of  Set
+Set-based recursion is especially effective at solving problems involving data sets and operations such as union, difference, composition, and intersection.
