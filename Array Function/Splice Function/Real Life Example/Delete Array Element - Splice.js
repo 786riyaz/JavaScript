@@ -77,5 +77,4 @@ console.log("::: Total Number of Element in the Object :::: ", AllEntitiesJson.l
 console.log("::: Details Entity ::: ");
 console.log(AllEntitiesJson)
 
-
 //  To delete a Element from array we can use splice function from index of array and number of element

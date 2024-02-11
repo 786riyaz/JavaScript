@@ -1,0 +1,22 @@
+The splice() method adds and/or removes array elements.
+The splice() method overwrites the original array.
+
+
+Syntax
+array.splice(index, howmany, item1, ....., itemX)
+
+
+
+--------------------------------------------------------------------
+Parameter	        |   Description
+--------------------------------------------------------------------
+index	            |   Required.
+                    |   The index (position) to add or remove items.
+                    |   A negative value counts from the end of the array.
+--------------------------------------------------------------------
+howmany	            |   Optional.
+                    |   Number of items to be removed.
+--------------------------------------------------------------------
+item1, ..., itemX   |   Optional.
+                    |   New elements(s) to be added.
+--------------------------------------------------------------------
