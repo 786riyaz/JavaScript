@@ -1,0 +1,34 @@
+Description         ----------------------------------------------
+The findLast() method returns the value of the last element that passes a test.
+The findLast() method executes a function for each array element.
+The findLast() method returns undefined if no elements are found.
+The findLast() method does not execute the function for empty elements.
+The findLast() method does not change the original array.
+
+
+------------------------------------------------------------------
+Syntax              ----------------------------------------------
+array.findLast(function(currentValue, index, arr),thisValue)
+
+--------------------------------------------------------------------------
+Parameters ----------------------------------------------
+function()	        |           Required.
+                    |           A function to run for each array element.
+---------------------------------------------------------------------
+currentValue	    |           Required.
+                    |           The value of the current element.
+---------------------------------------------------------------------
+index	            |           Optional.
+                    |           The index of the current element.
+---------------------------------------------------------------------
+arr	                |           Optional.
+                    |           The array of the current element.
+---------------------------------------------------------------------
+thisValue	        |           Optional. Default undefined.
+                    |           A value passed to the function as its this value.
+---------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Return Value        ----------------------------------------------
+a value of the last element that pass the test.
+Otherwise it returns undefined.
