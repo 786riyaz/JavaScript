@@ -41,7 +41,7 @@ console.log((stringVariable + " Pathan").search("P"));          //17
 console.log(stringVariable.slice(4,6));                         //iy
 console.log(stringVariable.slice(4,9));                         //iyaz
 console.log(stringVariable.split("a"));                         //[ '   Riy', 'z Kh', 'n   ' ]
-console.log(stringVariable.split(""));                          //  [' ', ' ', ' ', 'R','i', 'y', 'a', 'z',' ', 'K', 'h', 'a',  'n', ' ', ' ', ' ']
+console.log(stringVariable.split(""));                          //[' ', ' ', ' ', 'R','i', 'y', 'a', 'z',' ', 'K', 'h', 'a',  'n', ' ', ' ', ' ']
 console.log(stringVariable.substring(4,6));                     //iy
 console.log(stringVariable.substring(4,9));                     //iyaz
 
