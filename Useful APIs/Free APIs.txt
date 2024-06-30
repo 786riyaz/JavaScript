@@ -1,0 +1,70 @@
+Test API ::
+jsonplaceholder.typicode.com
+======================================================================
+Weather APIs :: 
+openweathermap.org
+wunderground.com
+======================================================================
+NEWS APIs ::
+developer.nytimes.com/apis
+======================================================================
+Book APIs :: 
+developers.google.com/books
+openlibrary.org/developers/api
+======================================================================
+Movie APIs ::
+developer.themoviedb.org/docs/getting-started
+rapidapi.com/collection/rotten-tomatoes-api
+======================================================================
+Meals APIs ::
+themealdb.com/api.php
+spoonacular.com/food-api
+======================================================================
+YouTube API ::
+developers.google.com/youtube/v3
+======================================================================
+Google Search API ::
+developers.google.com/custom-search/v1/introduction
+======================================================================
+Ecommerce API :: 
+shopify.dev/docs/api
+woocommerce.com/document/woocommerce-rest-api/
+======================================================================
+Dog APIs ::
+thedogapi.com
+dog.ceo/dog-api/
+======================================================================
+Cat API ::
+thecatapi.com
+======================================================================
+Dictionary APIs :: 
+dictionaryapi.com
+developer.oxforddictionaries.com
+======================================================================
+Sports APIs :: 
+developer.sportradar.com/docs/read/Home
+api-sports.io
+developer.nfl.com/get-started/overview
+======================================================================
+Quotes API ::
+zenquotes.io
+======================================================================
+Joke API :: 
+sv443.net/jokeapi/v2
+dadjokes.io
+======================================================================
+National Park Service API :: 
+nps.gov/subjects/developer/api-documentation.htm
+======================================================================
+GIPHY SDK API ::
+developer.giphy.com/branch/master/docs/sdk/
+======================================================================
+Rest Countries API ::
+restcountries.com
+======================================================================
+Gallery APIs ::
+unsplash.com/developers
+flickr.com/services/api/
+developers.gettyimages.com
+pexels.com/api/
+======================================================================
