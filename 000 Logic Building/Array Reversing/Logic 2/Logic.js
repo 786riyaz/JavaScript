@@ -13,7 +13,7 @@ for (let i = 0; i < InputArray.length / 2; i++) {
     InputArray[(InputArray.length - 1) - i] = tempVariable;
 }
 
-for (let i=0; i<InputArray.length; i++){
+for (let i = 0; i < InputArray.length; i++) {
     Message += InputArray[i] + ", ";
 }
 
