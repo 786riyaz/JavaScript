@@ -1,4 +1,4 @@
-Here are Different types of DataStructure noted :: 
+Here are Different types of Data Structure noted :: 
 
 Array
 Queues
