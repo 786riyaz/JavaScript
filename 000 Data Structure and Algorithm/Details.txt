@@ -13,3 +13,20 @@ Hash Table / Hashmap
 
 Link of the Material :: 
 https://www.w3schools.com/dsa/index.php
+
+===================================================================
+
+In Computer Science there are two different kinds of data structures.
+
+Primitive Data Structures :: are basic data structures provided by programming languages to represent single values, such as integers, floating-point numbers, characters, and booleans.
+
+Abstract Data Structures :: are higher-level data structures that are built using primitive data types and provide more complex and specialized operations. Some common examples of abstract data structures include arrays, linked lists, stacks, queues, trees, and graphs.
+
+===================================================================
+
+By understanding DSA, you can:
+
+Decide which data structure or algorithm is best for a given situation.
+Make programs that run faster or use less memory.
+Understand how to approach complex problems and solve them in a systematic way.
+
