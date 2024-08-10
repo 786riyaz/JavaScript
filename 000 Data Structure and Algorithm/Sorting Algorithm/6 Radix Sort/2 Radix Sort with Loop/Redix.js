@@ -28,3 +28,5 @@ for (let z = 1; z <= 3; z++) {
     array = tempArray;
     console.log("Sorted Iteration", z, ":: " + array + "\n");
 }
+
+
