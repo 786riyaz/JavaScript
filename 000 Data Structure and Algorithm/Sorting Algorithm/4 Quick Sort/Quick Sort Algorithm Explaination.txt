@@ -39,3 +39,7 @@ else if (value of current index <= pivot value)
         swap values of current index and value of swap index
     else if (current index == swap index)
         pass
+
+YouTube Tutorial :: 
+CuriousWalk ::: Quick Sort Algorithm
+https://www.youtube.com/watch?v=WprjBK0p6rw
