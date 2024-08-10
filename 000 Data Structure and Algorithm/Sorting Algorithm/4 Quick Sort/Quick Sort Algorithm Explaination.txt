@@ -43,3 +43,6 @@ else if (value of current index <= pivot value)
 YouTube Tutorial :: 
 CuriousWalk ::: Quick Sort Algorithm
 https://www.youtube.com/watch?v=WprjBK0p6rw
+
+Bro Code ::: Learn Quick Sort in 13 minutes ⚡
+https://www.youtube.com/watch?v=Vtckgz38QHs
