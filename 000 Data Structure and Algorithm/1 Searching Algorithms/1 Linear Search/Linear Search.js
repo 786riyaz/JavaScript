@@ -5,24 +5,24 @@ https://www.w3schools.com/dsa/dsa_algo_linearsearch.php
 */
 
 console.clear();
-console.log("Application Started.....");
+console.log("Application Started - Linear Search \n");
 
 let array = [1, 5, 2, 6, 9, 3, 8, 0, 4, 7];
-console.log("Array of values :: ", array);
+console.log("Input Array :: " + array + "\n");
 
 let element_Found_At = -1;
 let element = 9;
 console.log("Element to be search ::", element);
 
 for (let i = 0; i < array.length; i++) {
-    console.log("Current Element ::", array[i]);
-    if(array[i] == element){
-        console.log("\n\nElement found at position :: ", i);
+    // console.log("Current Element ::", array[i]);
+    if (array[i] == element) {
+        console.log("\nElement found at position :: ", i);
         element_Found_At = i;
         break;
     }
 }
 
-if(element_Found_At == -1){
-    console.log("\n\n Element not found!!!");
+if (element_Found_At == -1) {
+    console.log("\nElement not found!!!");
 }
