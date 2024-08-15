@@ -11,7 +11,7 @@ let array = [1, 5, 2, 6, 9, 3, 8, 0, 4, 7];
 console.log("Input Array :: " + array + "\n");
 
 let element_Found_At = -1;
-let element = 9;
+let element = 99;
 console.log("Element to be search ::", element);
 
 for (let i = 0; i < array.length; i++) {
