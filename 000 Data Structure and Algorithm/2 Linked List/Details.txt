@@ -1,0 +1,11 @@
+A Linked List is, as the word implies, a list where the nodes are linked together. Each node contains data and a pointer. The way they are linked together is that each node points to where in the memory the next node is placed.
+
+A big benefit with using linked lists is that nodes are stored wherever there is free space in memory, the nodes do not have to be stored contiguously right after each other like elements are stored in arrays. Another nice thing with linked lists is that when adding or removing nodes, the rest of the nodes in the list do not have to be shifted.
+
+Instead of storing a collection of data as an array, we can create a linked list.
+
+Linked lists are used in many scenarios, like dynamic data storage, stack and queue implementation or graph representation, to mention some of them.
+
+A linked list consists of nodes with some sort of data, and at least one pointer, or link, to other nodes.
+
+A big benefit with using linked lists is that nodes are stored wherever there is free space in memory, the nodes do not have to be stored contiguously right after each other like elements are stored in arrays. Another nice thing with linked lists is that when adding or removing nodes, the rest of the nodes in the list do not have to be shifted.
