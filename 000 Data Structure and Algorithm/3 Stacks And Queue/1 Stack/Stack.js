@@ -1,35 +1,38 @@
 let stack = [1, 2, 4];
 let top_Element = stack.length - 1;
 console.log("Top Element at Starting ::", top_Element);
-let currentArrayElement = document.getElementById("currentArray");
 
-let updateCurrentArray = function(){
-    currentArrayElement.innerHTML = "Current Stack :: " + JSON.stringify(stack);
-}
+document.addEventListener('DOMContentLoaded', (event) => {
+    let currentArrayElement = document.getElementById("currentArray");
 
-let isEmpty = function () {
-    console.log("Is Empty Function....");
-}
+    let updateCurrentArray = function () {
+        currentArrayElement.innerHTML = "Current Stack :: " + JSON.stringify(stack);
+    }
 
-let update_Top_Element = function () {
-    top_Element = stack.length - 1;
-    console.log("Updated the Top Element :::", top_Element);
-}
+    let isEmpty = function () {
+        console.log("Is Empty Function....");
+    }
 
-let find_Size = function () {
-    console.log("Size of Stack :::", top_Element);
-}
+    let update_Top_Element = function () {
+        top_Element = stack.length - 1;
+        console.log("Updated the Top Element :::", top_Element);
+    }
 
-let peek = function () {
-    console.log("Peek Function....");
-}
+    let find_Size = function () {
+        console.log("Size of Stack :::", top_Element);
+    }
 
-let push = function () {
-    console.log("Push Function....");
-}
+    let peek = function () {
+        console.log("Peek Function....");
+    }
 
-let pull = function () {
-    console.log("Pull Function....");
-}
+    let push = function () {
+        console.log("Push Function....");
+    }
 
-updateCurrentArray();
+    let pull = function () {
+        console.log("Pull Function....");
+    }
+
+    updateCurrentArray();
+});
