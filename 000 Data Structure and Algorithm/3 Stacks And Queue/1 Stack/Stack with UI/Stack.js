@@ -67,6 +67,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             pushText.value = "";
         } else {
             peekText.value = "";
+            popText.value = "";
+            pushText.value = "";
             note.textContent = "Note :: Stack is Empty!"
             note.style.display = "block";
         }
