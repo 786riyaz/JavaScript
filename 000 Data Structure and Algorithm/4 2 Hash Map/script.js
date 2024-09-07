@@ -27,7 +27,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
     let size = 0;
 
     putButton.addEventListener('click', function (event) {
-        
+        let rollNumber = rollNumberText.value;
+        let studentName = studentNameText.value;
+        let regex = /^\d+$/;
+        let valid = regex.test(rollNumber);
+        if (valid) {
+            put({ [rollNumber]: studentName });
+        } else {
+            rollNumberText.value = "";
+            console.log("Invalid Roll Number");
+            errorText.innerText = "Please Enter Valid Roll Number";
+            errorText.style.display = "block";
+        }
     });
 
     getButton.addEventListener('click', function (event) {
@@ -45,10 +56,25 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     removeButton.addEventListener('click', function (event) {
-       
+        let rollNumber = rollNumberText.value;
+        if ([undefined, null, ""].indexOf(rollNumber) == -1) {
+            remove(rollNumber);
+        }
+        else {
+            rollNumberText.value = "";
+            console.log("Invalid Roll Number");
+            errorText.innerText = "Please Enter Valid Roll Number";
+            errorText.style.display = "block";
+        }
     });
 
     put = function (json) {
+        let keys = Object.keys(json);
+        index = hashFunction(keys[0]);
+        console.log("Value to be add at Index :: ", index);
+        HashSet[index].push(json);
+        size++;
+        update();
     }
 
     get = function (rollNumber, remove) {
@@ -84,6 +110,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
     remove = function (rollNumber) {
+        console.log("Remove function initiated....");
+        let found = get(rollNumber, true)
+        console.log(found);
+        HashSet[found.bucket].splice(found.index, 1);
+        console.log(HashSet[found.bucket]);
+        console.log(JSON.stringify(HashSet[found.bucket]));
+        size--;
+        update();
     }
 
     update = function () {
