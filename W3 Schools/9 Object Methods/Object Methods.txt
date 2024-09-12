@@ -1,0 +1,34 @@
+https://www.w3schools.com/js/js_object_method.asp
+
+Object methods are actions that can be performed on objects.
+A method is a function definition stored as a property value.
+
+firstName	John
+lastName	Doe
+age	50
+eyeColor	blue
+fullName	function() {return this.firstName + " " + this.lastName;}
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+Accessing Object Methods
+You access an object method with the following syntax:
+objectName.methodName()
+If you invoke the fullName property with (), it will execute as a function:
+Example
+name = person.fullName();
+
+Adding a Method to an Object
+Adding a new method to an object is easy:
+Example
+person.name = function () {
+  return this.firstName + " " + this.lastName;
+};
+
