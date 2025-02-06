@@ -13,7 +13,7 @@ Next
 DSA
 express
 mongo DB
-
+Angular JS
 Web Development
 
 
