@@ -8,7 +8,17 @@ give to Harry. This process will continue till they get the original word string
 For a given string and given values of M and N, find the number of turns in which they wi
 get the original word string back.
 */
-performCutting = function (inputString, m, n) {
+/**
+ * Performs a cutting operation on an input string in alternating steps
+ * based on two provided values (m and n).
+ * The function keeps rotating segments of the string until it returns 
+ * to its original form and counts the number of steps required.
+ *
+ * @param {string} inputString - The string to perform the cutting operation on.
+ * @param {number} m - The number of characters to cut from the end when flag is "H".
+ * @param {number} n - The number of characters to cut from the end when flag is "R".
+ */
+const performCutting = function (inputString, m, n) {
     console.log("Function Starts.......");
     // console.log("Input String ::", inputString);
     // console.log("Harry Input ::", m);
@@ -17,7 +27,7 @@ performCutting = function (inputString, m, n) {
     let counter = 0;
     let tempString = "";
     let newString = inputString;
-    console.log("Original String :: ",counter," :: ", newString);
+    console.log("Original String :: ", counter, " :: ", newString);
 
     let mapping = {
         "H": m,
