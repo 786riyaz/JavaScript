@@ -16,4 +16,4 @@ for (let i = 0; i < array.length - 1; i++) {
     console.log("Iteration ", i + 1, "::", JSON.stringify(array));
 }
 
-console.log("\nFinal Array ::", JSON.stringify(array));
+console.log("\nFinal Sorted Array ::", JSON.stringify(array));
