@@ -1,0 +1,74 @@
+📊 Data Visualization / Charts
+These libraries are great for creating graphs, charts, and dashboards.
+| Library                 | Description                                                                                  |
+| ----------------------- | -------------------------------------------------------------------------------------------- |
+| Chart.js                | Simple, responsive charts (bar, line, pie, radar, etc.). Easy to use.                        |
+| D3.js                   | Powerful, low-level data visualization library — gives full control over SVG & data binding. |
+| ECharts (by Apache)     | Highly customizable interactive charts, ideal for dashboards.                                |
+| Plotly.js               | Scientific and analytics-grade charts with 3D & statistical support.                         |
+| Highcharts              | Commercial-grade charting library with interactive animations.                               |
+| Recharts                | Chart library built for React using D3 under the hood.                                       |
+| Vis.js                  | Dynamic, interactive data visualization (networks, timelines, etc.).                         |
+| Billboard.js            | Chart Library, based on D3 v4+                                                               |
+| ApexCharts              | Charting Library, Create beautiful and interactive visualization                             |
+| Nivo                    | Beautiful React chart components based on D3.                                                |
+
+---
+🧠 Machine Learning / AI
+| Library           | Description                                                   |    
+| ----------------- | ------------------------------------------------------------- |
+| TensorFlow.js     | Run ML models or train new ones directly in the browser.      |
+| Brain.js          | Neural networks in JavaScript (simpler than TensorFlow).      |
+| ml5.js            | Friendly high-level ML library built on top of TensorFlow.js. |
+| Synaptic.js       | Lightweight neural network library.                           |
+
+---
+🧩 DOM & UI Utilities
+| Library                    | Description                                                                 |
+| -------------------------- | --------------------------------------------------------------------------- |
+| jQuery                     | Simplifies DOM manipulation and AJAX (less used today, but still relevant). |
+| Lodash / Underscore.js     | Utility libraries for arrays, objects, and functional programming.          |
+| Day.js / Moment.js         | Date/time manipulation.                                                     |
+| anime.js / GSAP            | Smooth animations and motion effects.                                       |
+| Swiper.js                  | Modern touch slider for web and mobile.                                     |
+| Popper.js / Tippy.js       | Tooltips, popovers, and positioning.                                        |
+
+---
+🌍 Mapping & Geospatial Visualization
+| Library                | Description                                          |
+| ---------------------- | ---------------------------------------------------- |
+| Leaflet.js             | Lightweight interactive maps using OpenStreetMap.    |
+| Mapbox GL JS           | 3D maps and custom vector map styling.               |
+| Google Maps JS API     | Official Google Maps for the web.                    |
+| Deck.gl                | Large-scale WebGL-powered geospatial visualizations. |
+
+---
+⚙️ 3D / Graphics / Animation
+| Library        | Description                                                      |
+| -------------- | ---------------------------------------------------------------- |
+| Three.js       | 3D rendering and animations using WebGL.                         |
+| Babylon.js     | Game engine for 3D graphics and VR.                              |
+| Pixi.js        | 2D WebGL rendering engine for games and visuals.                 |
+| p5.js          | Creative coding library for drawing, visuals, and interactivity. |
+
+---
+📱 Frameworks & Component Libraries
+| Library      | Description                                       |
+| ------------ | ------------------------------------------------- |
+| React.js     | UI component-based library by Meta.               |
+| Vue.js       | Lightweight and progressive UI framework.         |
+| Angular      | Full-featured framework by Google.                |
+| Svelte       | Compiler-based UI framework with minimal runtime. |
+
+---
+🔐 Networking & Backend Utilities
+| Library               | Description                              |
+| --------------------- | ---------------------------------------- |
+| Axios                 | HTTP requests with promise-based syntax. |
+| Socket.io             | Real-time WebSocket communication.       |
+| Express.js            | Server framework for Node.js.            |
+| Next.js / Nuxt.js     | Full-stack React/Vue frameworks.         |
+---
+---
+---
+

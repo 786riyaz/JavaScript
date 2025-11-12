@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chart.js Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <h2>📈 My First Chart.js Example</h2>
+  
+  Chart.js is a JavaScript library used to create beautiful charts and graphs with just a few lines of code.
+  It supports many chart types — line, bar, pie, radar, doughnut, polar area, etc.
+
+  <canvas id="myChart" width="600" height="200"></canvas>
+
+  <script>
+    // 1️⃣ Get the canvas element
+    const ctx = document.getElementById('myChart').getContext('2d');
+
+    // 2️⃣ Create a new chart
+    const myChart = new Chart(ctx, {
+      type: 'line', // chart type: line, bar, pie, etc.
+      data: {
+        labels: ['January', 'February', 'March', 'April', 'May', 'June'], // X-axis
+        datasets: [{
+          label: 'Sales (in ₹ Thousands)',
+          data: [12, 19, 3, 5, 2, 15], // Y-axis
+          borderColor: 'blue',
+          backgroundColor: 'rgba(0, 0, 255, 0.1)',
+          borderWidth: 2,
+          tension: 0.4 // for smooth curves
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'top'
+          },
+          title: {
+            display: true,
+            text: 'Monthly Sales Data (2025)'
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

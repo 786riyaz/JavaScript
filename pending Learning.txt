@@ -4,17 +4,11 @@ hoisting
 	let var const
 Modern JS
 	map filter reduce
-Make Projects
 Code Polution
 
 jQuery
-React
 Next
 DSA
-express
-mongo DB
-Angular JS
-Web Development
 
 
 CodeWithHarry ::: JavaScript Tutorials In Hindi
