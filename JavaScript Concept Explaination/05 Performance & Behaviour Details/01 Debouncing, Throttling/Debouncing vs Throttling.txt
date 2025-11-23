@@ -1,0 +1,5 @@
+| Feature         | Debounce (your original) | Throttle (new code)           |
+| --------------- | ------------------------ | ----------------------------- |
+| When fn runs    | After user stops typing  | Every `limit` ms              |
+| How many times? | Once per pause           | Once per interval             |
+| Use case        | Search boxes             | Scroll, drag, repeated typing |
