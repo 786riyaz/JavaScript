@@ -1,0 +1,9 @@
+polyfils in js
+string methods
+promise related functions
+closure
+working on indexes in databases
+streams
+when we can use multi threading
+
+nestjs
