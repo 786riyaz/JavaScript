@@ -17,7 +17,6 @@ Section 1 - Introduction To JS
 
 Section 2 - JavaScript Basics
 27:50 - Variables in JavaScript
-RRR
 42:30 - Built-in Types in JavaScript
 58:41 - Arrays in JavaScript
 01:09:54 - Comments, Semicolons, and Best Practices
