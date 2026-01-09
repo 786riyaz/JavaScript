@@ -1,0 +1,11 @@
+A recursive method calls itself. This makes it possible to solve certain types of problems by breaking them down into smaller and smaller pieces until they are easy to solve. Recursion is essential because it allows us to make programs that can do things we couldn’t otherwise do with just one pass through the data.
+
+Advantages of Recursion
+A recursive method can be easier to write than an iterative one because it doesn’t require the programmer to keep track of all the intermediate steps.
+This makes recursive methods ideal for solving problems that involve repetitive tasks.
+Recursive methods are also faster than iterative ones because they run on a smaller data set. This is especially true for divide-and-conquer algorithms, which break the problem into two or more subproblems that are similar but simpler to solve.
+
+Disadvantages of Recursion
+Recursive methods can be harder to debug than iterative ones. It’sIt’s easy to make a mistake in a recursive method because you only sometimes know where the problem is coming from or what data you need to fix it.
+Recursive methods are more complex to optimize than iterative ones.
+There may be better choices than recursive methods when your problem is large or complex and requires a lot of repetition. These algorithms can also make writing code that works with data structures other than stacks and queues difficult.

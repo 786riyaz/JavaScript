@@ -1,0 +1,8 @@
+Types of Function
+-----------------------------------------------------
+1. First Class function
+2. Higher Order function
+3. First Order function
+4. Unary function
+5. Pure function
+6. Currying function

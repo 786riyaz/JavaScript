@@ -1,0 +1,19 @@
+First Class Function
+-------------------------------------------------
+
+In JavaScript, functions are first class objects.
+First-class functions means when functions in that language are treated like any other variable.
+
+In such a language, a function
+    can be passed as an argument to other functions,
+    can be returned by another function and 
+    can be assigned as a value to a variable.
+
+For example, in the below example, handler function assigned to a listner.
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+const handler = () => 
+console.log("Hello");
+document.addEventListener("click", handler);

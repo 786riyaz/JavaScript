@@ -1,0 +1,146 @@
+var is function scoped
+var is attached to window
+=====================================================================
+scope of variables ::: global, block, functional (var)
+temporal dead zone
+=====================================================================
+Type coercion
+=====================================================================
+13 == 13 ===========> true
+13 === 13 ===========> false
+=====================================================================
+NaN === NaN ==================> false
+isNAN(NaN) ==================> true
+=====================================================================
+process.stdout.write("Hello ");
+process.stdout.write("World");
+=====================================================================
+Promise
+let a=10, b=20;
+let waitingForDataToUpdate = new Promise ((resolve, reject) => {
+    setTimeout(()=>{
+        let success = true;
+        success ? resolve (30) : reject ("Update Failed");
+    }, 2000);
+})
+
+waitingForDataToUpdate
+    .then(data=>log a + (b=data))
+    .catch(err => log err)
+=====================================================================
+console.log("First Statement")                                  // 1
+setTimeout(()=>{console.log("Second Statement")}, 2000);        // 4
+setTimeout(()=>{console.log("Third Statement")}, 0);            // 3
+console.log("Forth Statement")                                  // 2
+=====================================================================
+Pure Function, Impure Function, Closure Function, Lexical Scoping, Temporal Dead Zone
+=====================================================================
+arr.forEach(function(val){
+    log val+10
+})
+=====================================================================
+let doubled = numbers.map(function(num) { return num * 2; });
+let squared = numbers.map(num => num * num);
+=====================================================================
+let filteredArray = array.filter(function(element) { return true/false; });
+let evens = numbers.filter(num => num % 2 === 0); // [2, 4, 6]
+=====================================================================
+// arr.reduce((accumulator, currentValue, currentIndex, array) => { ... }, initialValue)
+let sum = numbers.reduce(function(acc, curr) { return acc + curr; }, 0); // sums all elements in numbers
+let product = numbers.reduce((acc, curr) => acc * curr, 1);
+let flat = arrays.reduce((acc, arr) => acc.concat(arr), []);
+=====================================================================
+IIFE    Immediately Invoked Function Expression 
+(function () { log IIFE })();
+=====================================================================
+let arr = [1,2,3,4,5];
+let [a,b,,c] = arr; // a=1, b=2, c=4            Destructuring 
+let arr2 = [...arr];                            Spread Operator
+=====================================================================
+let answer = arr.some(function (val){ return val<35 })
+arr.every(function (val) { return val%2 === 0 })
+=====================================================================
+const user = {"first-name" : "Riyaz"};
+let {"first-name":firstName} = user;
+=====================================================================
+Object.entries(course).forEach(function(val){
+    console.log(val[0] + " : " + val[1])
+})
+=====================================================================
+Currying :: 
+const addNumber = a => b => a+b
+console.log(addNumber(3)(4));
+=====================================================================
+https://api.github.com/users/nykz
+=====================================================================
+async function fetchData () {
+    let response = await fetch("https://api.github.com/users/nykz");
+    if(!response.ok){
+        throw new Error (`HTTP Error Status : ${response.status}`)
+    }
+    const userData = await response.json();
+    return userData;
+}
+=====================================================================
+document.getElementByID('name')
+document.getElementsByClassName('colorBox')
+document.getElementByTagName('h1')
+document.querySelector('.container #special')
+document.querySelectorAll('.container #special')
+const button = document.getElementByID('myButton');
+button.addEventListener('click', (event)=> {
+    alert("Button clicked");
+})
+mousedown, mouseover
+=====================================================================
+const formData = new FormData(formElement)
+console.log("UserName :: ", formData.get('username'));
+=====================================================================
+inputfield.addEventListener('input', ()=>{
+    console inputfield.value
+})
+=====================================================================
+export const greet = () => console.log("Hello");
+import {greet} from "/features.js"; 
+=====================================================================
+const ID = Symbol('id');
+=====================================================================
+2**3 ===> 8 === exponent
+=====================================================================
+[1,2,3,4,5].includes(2)=========> true
+=====================================================================
+Object.keys
+Object.values
+Object.entries
+=====================================================================
+nestedArray.flat(2)
+=====================================================================
+user?.name          Optional Chaining
+=====================================================================
+const || 50
+const ?? 50         Nullish Coalescing
+=====================================================================
+localStorage.setItem('username', "Riyaz")
+localStorage.getItem('username')
+localStorage.removeItem('username')
+localStorage.clear()
+sessionStorage.setItem('username', "Riyaz")
+sessionStorage.getItem('username')
+sessionStorage.removeItem('username')
+sessionStorage.clear()
+=====================================================================
+const button = document.createElement('button');
+button.textContent = "Click Me";
+button.addEventListener('click', ()=> alert("Button Clicked"));
+document.body.appendChild(button);
+=====================================================================
+sync -- promise -- setTimeout
+=====================================================================
+=====================================================================
+=====================================================================
+=====================================================================
+=====================================================================
+=====================================================================
+=====================================================================
+=====================================================================
+=====================================================================

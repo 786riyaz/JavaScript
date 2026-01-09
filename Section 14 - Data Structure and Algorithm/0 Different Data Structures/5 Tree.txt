@@ -1,0 +1,11 @@
+A data structure known as a tree creates a hierarchical structure out of its nodes. The tree’s root node is at the top, and all other nodes are descendants of this node. In JavaScript, trees are represented by objects with a parent property, which points to the next object in the tree.
+
+Advantages of trees
+Trees are great for organizing related data, so it’s easier to find what you’re looking for.
+
+Trees are highly efficient at finding the lowest common ancestor (LCA) when comparing two objects. They’re perfect for building graph-based models like those used in machine learning and computer vision.
+Trees allow us to efficiently store large amounts of data in a compact format, which is helpful for applications like web servers that need to process lots of requests simultaneously.
+
+Disadvantages of trees
+Trees are slow to compute because they require constant recomputation of the tree.
+Trees are not suitable for representing recursive data structures, like a list of words or an array that is itself an array.

@@ -1,0 +1,48 @@
+https://www.w3schools.com/js/js_string_methods.asp
+=============================================================
+Basic String Methods
+Javascript strings are primitive and immutable: All string methods produce a new string without altering the original string.
+
+String length
+String charAt()
+String charCodeAt()
+String at()
+String [ ]
+String slice()
+String substring()
+String substr()
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String trimStart()
+String trimEnd()
+String padStart()
+String padEnd()
+String repeat()
+String replace()
+String replaceAll()
+String split()
+
+Property access might be a little unpredictable:
+It makes strings look like arrays (but they are not)
+If no character is found, [ ] returns undefined, while charAt() returns an empty string.
+It is read only. str[0] = "A" gives no error (but does not work!)
+
+Extracting String Parts
+There are 3 methods for extracting a part of a string:
+    slice(start, end)
+    substring(start, end)
+    substr(start, length)
+
+JavaScript String slice()
+    slice() extracts a part of a string and returns the extracted part in a new string.
+    The method takes 2 parameters: start position, and end position (end not included).
+
+substr() is similar to slice().
+The difference is that the second parameter specifies the length of the extracted part.
+
+The replace() method does not change the string it is called on.
+The replace() method returns a new string.
+The replace() method replaces only the first match
+If you want to replace all matches, use a regular expression with the /g flag set. See examples below.

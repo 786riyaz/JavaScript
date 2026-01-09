@@ -1,0 +1,11 @@
+A graph is a mathematical structure that consists of nodes (also called vertices) and edges connecting those nodes. Nodes are the vertices of a graph. Edges can connect nodes. The nodes in a graph are also called vertices. Edges are the lines connecting the nodes of a graph.
+
+Advantages of using graphs
+They make it easy to understand how data flows through an application by showing relationships between different entities connected.
+Graphs can be used to represent relationships that exist between two or more entities. This means that they can be used to represent things like customer relationships and product features.
+
+Disadvantages of Graphs
+Graphs are difficult to understand and calculate
+Graphs are complicated
+Graphs have no clear boundaries
+Graphs are not easy to define

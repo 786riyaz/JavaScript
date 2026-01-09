@@ -1,0 +1,13 @@
+In an array, the first element has index (position) 0, the second has index 1, ...
+
+
+Parameter and their description
+Parameter	    |    Description
+--------------------------------------------
+item	        |    Required.
+                |    The value to search for.
+                |
+start	        |    Optional.
+                |    Where to start the search.
+                |    Default value is 0.
+                |    Negative values start the search from the end of the array.

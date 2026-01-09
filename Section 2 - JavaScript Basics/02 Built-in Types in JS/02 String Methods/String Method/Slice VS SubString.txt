@@ -1,0 +1,47 @@
+Common Thing in both Functions ---->
+
+If start == stop, both return an empty string
+If the stop is omitted, both extracts characters till the end of the string
+If any argument is greater than the string’s length, the string’s length will be used in that case.
+
+========================================================================
+JavaScript substring() different results of substring()
+
+If start > stop, then the function swaps both arguments.
+If any argument is negative or is NaN, it is treated as 0.
+JavaScript slice() different results of slice()
+
+If start > stop, This function will return an empty string. (“”)
+If the start is negative, It sets char from the end of the string, like substr().
+If stop is negative, It sets stop = string.length – Math.abs(stop) (original value)
+
+For More info followthis link ::
+https://www.geeksforgeeks.org/difference-between-string-slice-and-string-substring-in-javascript/
+=======================================================================================================
+
+The slice() and substring() methods in JavaScript are both used to extract a portion of a string. However, there are a few key differences between the two methods.
+
+The slice() method takes two arguments: the start index and the end index. The start index is the index of the first character that you want to extract, and the end index is the index of the first character that you want to stop extracting. The slice() method will return a new string that contains the characters from the start index to the end index, excluding the end index.
+
+The substring() method also takes two arguments: the start index and the end index. However, the substring() method is a bit different from the slice() method in that the end index is not included in the substring that is returned. So, if you want to extract a substring that includes the last character of a string, you will need to specify the end index as the length of the string.
+
+Here is a table that summarizes the key differences between the slice() and substring() methods:
+Method                  Start index                 End index
+slice()                 Included                    Excluded
+substring()             Included                    Not included
+
+Here are some examples of how to use the slice() and substring() methods:
+// Slice example
+const str = "Hello, world!";
+const slicedStr = str.slice(0, 5); // "Hello"
+
+// Substring example
+const substr = str.substring(0, 5); // "Hello"
+
+As you can see, the slice() and substring() methods can be used to extract a portion of a string. However, there are a few key differences between the two methods that you should be aware of.
+
+
+====================================
+
+Differences between substring() and slice()
+The substring() method swaps its two arguments if indexStart is greater than indexEnd , meaning that a string is still returned. The slice() method returns an empty string if this is the case.

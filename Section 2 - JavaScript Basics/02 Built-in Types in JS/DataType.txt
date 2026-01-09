@@ -1,0 +1,23 @@
+https://www.w3schools.com/js/js_datatypes.asp
+
+JavaScript has 8 Datatypes
+String
+Number
+Bigint
+Boolean
+Undefined
+Null
+Symbol
+Object
+
+The Object Datatype
+The object data type can contain both built-in objects, and user defined objects:
+
+Built-in object types can be:
+
+objects, arrays, dates, maps, sets, intarrays, floatarrays, promises, and more.
+
+JavaScript BigInt
+All JavaScript numbers are stored in a 64-bit floating-point format.
+
+JavaScript BigInt is a new datatype (ES2020) that can be used to store integer values that are too big to be represented by a normal JavaScript Number.

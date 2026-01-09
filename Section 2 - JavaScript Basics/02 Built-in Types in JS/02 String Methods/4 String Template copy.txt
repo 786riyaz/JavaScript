@@ -1,0 +1,22 @@
+https://www.w3schools.com/js/js_string_templates.asp
+=============================================================
+String Templates
+Template Strings
+Template Literals
+
+Back-Tics Syntax
+Template Strings use back-ticks (``) rather than the quotes ("") to define a string:
+
+Example
+let text = `Hello World!`;
+
+
+Interpolation
+Template String provide an easy way to interpolate variables and expressions into strings.
+
+The method is called string interpolation.
+${...}
+
+let firstName = "John";
+let lastName = "Doe";
+let text = `Welcome ${firstName}, ${lastName}!`;

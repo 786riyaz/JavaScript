@@ -1,0 +1,13 @@
+There are 6 types of Arrow Function ::
+
+1. No Parameter
+
+2. Single Parameter
+
+3. Multiple Parameter
+
+4. Function body with Multiple statements
+
+5. Returning Object Literals
+
+6. High Order Function and callbacks

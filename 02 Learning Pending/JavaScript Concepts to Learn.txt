@@ -1,0 +1,27 @@
+polyfils in js
+string methods
+promise related functions
+closure
+working on indexes in databases
+streams
+when we can use multi threading
+
+polyfils
+stream
+closure with setTimeOut
+setImmediate
+curring
+sql qeury for finding 3rd max
+mongodb for finding 3rd max
+js vs nodejs
+MVCC
+EC2 with frontend
+ORM
+cluster vs child processes
+web worker vs child processes
+socket io
+socket broadcast
+virtual dom
+what can we do if the page takes much time to load first
+
+prototype chaining
