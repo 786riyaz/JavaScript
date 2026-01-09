@@ -394,3 +394,12 @@ arr.at(-1); // 30
 * **Set** → unique values
 * **Optional chaining** → safe access
 * **Nullish** → only null/undefined
+Flat Methods for Array to flatten the array defualt parameter is 1.
+Numeric separators = 1_000_000_000
+sortedArray = array.toSorted()
+reversedArray = array.toReversed();
+toSpliced
+
+Finding last element
+const array = [1,2,3,4,5,6,7]
+console.log(array.findLast( x => x < 4 )) // 3
