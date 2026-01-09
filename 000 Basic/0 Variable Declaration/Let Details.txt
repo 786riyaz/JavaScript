@@ -1,7 +1,0 @@
-We can declare same name for a variable 
-var a = 5;
-var a = 6;
-
-we can not use let keywork to declare a variable with same name 
-let z = "A";
-let z = "C";
