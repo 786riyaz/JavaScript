@@ -1,4 +1,3 @@
-polyfils in js
 string methods
 promise related functions
 closure
@@ -25,3 +24,16 @@ virtual dom
 what can we do if the page takes much time to load first
 
 prototype chaining
+
+First Class Function
+First Order Function
+Higher Order Function
+
+
+Block Variable
+    {
+        var a = 1;
+        let b = 2;
+        const c = 3;
+    }
+    console.log(a,b,c)
