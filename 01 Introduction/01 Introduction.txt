@@ -1,0 +1,20 @@
+What is JavaScript?
+JavaScript is a programming language used to make websites interactive and dynamic.
+It works alongside HTML (structure) and CSS (Style) to add behaviour to web pages.
+Popularly known as the "language of the web".
+
+History of JavaScript
+1995 : Brendan Eich created JavaScript in just 10 days for Netscape to make web pages interactive.
+1996 : It was intoduced in Netscape Navigator and called LiveScript before being renamed to JavaScript.
+1997 : JavaScript was standardized as ECMAScript(ES1) to make it consistent across browsers.
+2009 : ES5 added important features like strict mode and new array methods.
+2015 : ES6 (ECMAScript 2015) introduced major improvements, such as arrow functions and classes.
+Today : JavaScript is used everywhere - on the front end (e.g websites) and back end (e.g. servers with Node.js)
+
+Where Does JavaScript Run ?
+In the Browser : 
+    Built-In engine executes JavaScript (e.g. V8 in Chrome)
+    Works on browsers like Chrome, Firefox, Safari and Edge.
+On Servers : 
+    With Node.js, JavaScript can run on servers, allowing full-stack development.
+    
