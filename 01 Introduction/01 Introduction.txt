@@ -18,3 +18,15 @@ In the Browser :
 On Servers : 
     With Node.js, JavaScript can run on servers, allowing full-stack development.
     
+What can JavaScript Do ?
+Update content dynamically (e.g. live news feeds)
+Respond to user actions like clicks, typing or scrolling.
+Perform animations (e.g. slideshows, fading effects)
+Communucate with servers to load/save data (e.g APIs)
+Build full applications (web, mobile and desktop)
+
+Fun Facts about JavaScript
+JavaScript and Java are not related, despite the name.
+It's one of the most popular programming languages gloabally.
+Ite runs on over 98% of websites today.
+The V8 engine by Google made JavaScript significantly faster and more efficient.
