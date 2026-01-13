@@ -13,3 +13,11 @@ function printX() {
     console.log(x);
 }
 console.log(x);
+
+
+// Output:
+// Hello, World!
+// undefined
+// 20
+// 30
+// undefined
