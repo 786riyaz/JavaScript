@@ -1,3 +1,5 @@
+// we can declare a identifier with letter, underscore and dollar sign as well.
+
 let test = "ABC";
 let $amount = 123;
 
