@@ -17,8 +17,6 @@ console.log(new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).for
 
 
 /* Reffered Links ::: 
-
 Number toLocaleString() ::: https://www.w3schools.com/jsref/jsref_tolocalestring_number.asp
 Intl.NumberFormat() ::: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat
-
 */
