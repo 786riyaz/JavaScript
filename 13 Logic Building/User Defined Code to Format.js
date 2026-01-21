@@ -7,7 +7,7 @@ function validateInput(input) {
     let NumberPattern = /^\d{1,}$/gm;
     let result = USpattern.test(input);
     console.log("~~~~~~~~~~~~~ Before ~~~~~~~~~~~~~~~~~");
-    console.log("US Amount Pattern Matched ???", input, "::", result);
+    console.log("US Amount Pattern Matched ?", input, "::", result);
 
     if (!result) {
         console.log("\nBefore Trim :::", input);
@@ -36,7 +36,7 @@ function validateInput(input) {
 
         result = USpattern.test(final);
         console.log("\n~~~~~~~~~~~~~ After ~~~~~~~~~~~~~~~~~");
-        console.log("US Amount Pattern Matched ???", final, "::", result);
+        console.log("US Amount Pattern Matched ?", final, "::", result);
         console.log("\n");
 
         if (result) {
