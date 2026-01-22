@@ -1,0 +1,33 @@
+strict mode in JavaScript
+NaN
+closure - data privacy, setTimeout, memoization, function factory
+arrow function vs regular function
+call, apply, bind
+Function hoisting nuance
+prototype and proto
+Freeze vs seal vs preventExtensions
+WeakMap vs Map
+array vs typed arrays
+array.flat
+array buffer
+Float32Array and Uint8Array
+all vs race vs allSettled vs any
+AbortController
+DOM and BOM
+addEventListener options
+Event delegation
+Same Origin Policy and CORS and CQRS
+dynamic import()
+Transpile vs polyfill
+What are source maps
+Generators
+Debounce vs throttle
+What is XSS
+CSRF
+
+
+Why avoid eval?  
+Answer :: eval executes strings as code, disabling many engine optimizations and introducing security risks like injection, making safer alternatives preferable.
+
+ESM vs CommonJS?  
+Answer :: ESM has static import/export and live bindings friendly to tree-shaking, while CommonJS uses require/module.exports with dynamic loading semantics and value copies at import time.
