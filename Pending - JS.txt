@@ -1,0 +1,12 @@
+module.export vs export
+default export rename
+
+throttling
+
+array methods
+	indexof, find, some, map, filter, flat
+	
+object methods 
+	freeze, seal
+	
+what is promise with fetch
