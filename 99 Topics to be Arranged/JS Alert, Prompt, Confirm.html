@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- JavaScript - Alert     Prompt       Confirm -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 5 - RK</title>
+</head>
+
+<body>
+    <div class="container">
+        <p id="info">
+            This is Post.
+        </p>
+    </div>
+
+    <script>
+        // Alert does not return any thing
+        alert("This is alert message from riyaz"); //It opens a Modal Window
+
+
+        let name = prompt("What is your name?", "Guest");//Default name in 2nd argument
+        console.log("Hello " + name);
+        console.log(`How R U ? ${name}`);
+
+        let deleting = confirm("Do you really want to delete?");
+        console.log(deleting);
+
+        if (deleting) {
+            console.log("Deleted");
+            document.getElementById('info').innerHTML = 'Post is deleted';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Bubbling & Propagation</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .box {
+      padding: 30px;
+      margin: 10px;
+      border: 2px solid black;
+    }
+
+    #grandparent {
+      background-color: #f8d7da;
+    }
+
+    #parent {
+      background-color: #d1ecf1;
+    }
+
+    #child {
+      background-color: #d4edda;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Event Bubbling, Capturing & stopPropagation()</h2>
+
+  <div id="grandparent" class="box">
+    Grandparent
+    <div id="parent" class="box">
+      Parent
+      <div id="child" class="box">
+        Child (Click Me)
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // -----------------------------
+    // EVENT BUBBLING (Default)
+    // -----------------------------
+
+    document.getElementById("grandparent").addEventListener("click", () => {
+      console.log("Grandparent clicked (BUBBLING)");
+    });
+
+    document.getElementById("parent").addEventListener("click", () => {
+      console.log("Parent clicked (BUBBLING)");
+    });
+
+    document.getElementById("child").addEventListener("click", (event) => {
+      console.log("Child clicked (BUBBLING)");
+      event.stopPropagation(); // Uncomment to stop bubbling
+    });
+
+    // -----------------------------
+    // EVENT CAPTURING
+    // (Third argument = true)
+    // -----------------------------
+
+    document.getElementById("grandparent").addEventListener(
+      "click",
+      () => {
+        console.log("Grandparent clicked (CAPTURING)");
+      },
+      true
+    );
+
+    document.getElementById("parent").addEventListener(
+      "click",
+      () => {
+        console.log("Parent clicked (CAPTURING)");
+      },
+      true
+    );
+
+    document.getElementById("child").addEventListener(
+      "click",
+      (event) => {
+        console.log("Child clicked (CAPTURING)");
+        // event.stopPropagation(); // Stops further propagation
+      },
+      true
+    );
+  </script>
+
+</body>
+</html>
